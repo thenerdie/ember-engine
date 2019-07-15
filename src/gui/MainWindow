@@ -1,0 +1,19 @@
+"""
+Wrapper for wx in order to ensure a central codebase for modifying the appearance of the editor.
+API REFERENCE:
+    ___F__I__L__L___I__N___H__E__R__E___
+"""
+import wx
+import math
+
+
+class MainWindow():
+    app = wx.App(False)
+    window = wx.Frame(None, wx.ID_ANY, "Ember v1")
+    window.Show(True)
+    app.MainLoop()
+
+    def Button(self, text, pos_x, pos_y, size_x, size_y):
+        pass
+    def Text(self, text, pos_x, pos_y, size_x, size_y):
+        pass
